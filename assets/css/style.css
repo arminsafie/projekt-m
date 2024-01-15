@@ -1,0 +1,22 @@
+.search-input{
+  border: none;
+  background-color: #d6d3d3e7;
+  
+}
+a{
+  text-decoration: none;
+}
+.form-buttons{
+  border: .3rem black solid;
+  font-size: 1rem;
+  
+
+}
+
+.text-greenlight{
+  color: #33cb6f;
+}
+.icon-size{
+  font-size: 4rem;
+  font-weight: 100;
+}
