@@ -1,22 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Set the interval (in milliseconds) for autoplay
-  const interval = 2000; // Adjust as needed
+  // Set timer in ms for autoplay
+  const interval = 4000;
 
-  // Initialize the carousel
   const myCarousel = new bootstrap.Carousel(
     document.getElementById("carouselExample"),
     {
-      interval: false, // Disable the default interval
+      interval: false,
     }
   );
 
-  // Start autoplay
   function startAutoplay() {
     setInterval(() => {
-      myCarousel.next(); // Move to the next slide
+      myCarousel.next();
     }, interval);
   }
 
-  // Start autoplay when the document is fully loaded
   startAutoplay();
 });
