@@ -55,3 +55,22 @@ a{
   margin-top: -3.5rem;
   
 }
+.padding-big{
+  padding: 4rem;
+}
+
+.mt-big{
+  margin-top: 4rem;
+}
+.mb-big{
+  margin-bottom: 2rem;
+}
+.line{
+  border-bottom: 3px solid rgb(70, 69, 69) ;
+  width: 30%;
+  
+}
+.text-shadow{
+  color: rgb(70, 69, 69);
+  text-shadow: rgb(70, 69, 69) 0px 0 1px;
+}
