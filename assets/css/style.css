@@ -1,10 +1,21 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+h4,h2,h1,h3{
+  font-family: 'Dancing Script', cursive;
+}
+a{
+  text-decoration: none;
+}
+.fs-heading-seccendery{
+  font-size: 300%;
+}
 .search-input{
   border: none;
   background-color: #d6d3d394;
   
-}
-a{
-  text-decoration: none;
 }
 .form-buttons{
   border: .3rem black solid;
@@ -57,6 +68,7 @@ background-size: cover;
 }
 .fs-costum-headign{
   font-size: 6rem;
+  font-family: 'Dancing Script', cursive;
 }
 .header-btn{
   color: #eee;
@@ -79,7 +91,7 @@ background-size: cover;
 }
 .ch{
   height: 18rem;
-  margin-top: -4%;
+  margin-top: -5%;
   
 }
 .padding-big{
@@ -116,4 +128,47 @@ background-size: cover;
   padding: 0 8rem;
 }
 
+.bg-img_text-box{
+  width: 50%;
+}
 
+.img-flex_pose--2{
+  display: flex;
+  justify-content: end;
+}
+
+/* media */
+@media only screen and (max-width: 37.5em) {
+  .ch{
+    margin: 0;
+    height: 100%;
+  }
+    
+  .bg-img_text-box{
+    width: 100%;
+  }
+  .ms-big{
+    margin-right: 0;
+  }
+  .img-flex_pose--1{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .p-costum-2{
+    padding: 0 3.5rem ;
+  }
+  .p-costum{
+    padding: 0 3.5rem ;
+  }
+  .img-flex_pose--2{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .padding-big{
+    padding:0 3rem 3rem 3rem;
+  }
+
+
+}
