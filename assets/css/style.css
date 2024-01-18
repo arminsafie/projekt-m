@@ -169,6 +169,12 @@ background-size: cover;
   .padding-big{
     padding:0 3rem 3rem 3rem;
   }
-
-
+  .swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #cac9c9;
+  }
 }
