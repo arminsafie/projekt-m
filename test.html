@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .image-container {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+      }
+
+      .image-container img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+      }
+
+      .image-text {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(100%);
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        color: #fff;
+        text-align: center;
+      }
+
+      .image-container:hover img {
+        transform: scale(1.1); /* Zoom effect */
+        filter: grayscale(100%);
+      }
+
+      .image-container:hover .image-text {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="./assets/img/img2.jpg" alt="Your Image" style="width: 30rem" />
+      <div class="image-text">
+        <h2>heading...</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+    </div>
+  </body>
+</html>
