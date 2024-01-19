@@ -218,7 +218,7 @@ background-size: cover;
 }
 
 .image-container:hover img {
-  transform: scale(1.1); /* Zoom effect */
+  transform: scale(1.3); /* Zoom effect */
   filter: grayscale(100%);
 }
 
